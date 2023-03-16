@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 EditText namaEditText = (EditText) findViewById(R.id.namaEditText);
                 String nama = namaEditText.getText().toString();
-                String pesan = "Hallo dek, " + nama + "!";
+                String pesan = "Hallo faisal, " + nama + "!";
                 TextView infoTextView = (TextView) findViewById(R.id.infoTextView);
                 infoTextView.setText(pesan);
             }
